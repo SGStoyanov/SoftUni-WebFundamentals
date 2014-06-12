@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<!-- Problem 1. Create a HTML form like the image below (100% accuracy is not required). Put appropriate validation and placeholders.-->
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Problem 1 - Simple Form</title>
+    <style>
+        table {
+            background: #EEEEEE;
+        }
+        h1 {
+            color: #1E3F61;
+        }
+        body {
+            color: #AEAEAE;
+            font-family: Tahoma;
+        }
+        td.firstLine {
+            text-transform: capitalize;
+            font-weight: bold;
+        }
+        tr.header {
+            border-spacing: 100px;
+        }
+        input[name=submitter] {
+            border: 2px solid #234465;
+            background: transparent;
+            float: right;
+            color: #234465;
+            font-size: 20px;
+            font-family: Tahoma;
+            padding: 20px;
+            width: 40%;
+            height: 30px;
+            vertical-align: middle;
+        }
+    </style>
+</head>
+<body>
+    <table>
+       <tr>
+           <td valign="top"><h1>Enter the system</h1></td>
+       </tr>
+        <tr class="header">
+            <td>It is necessary to login in Your account in order to sign in for a course.</td>
+        </tr>
+        <tr>
+            <td class="firstLine">
+                Are you new? Register
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <form method="post">
+                    <input name="username" type="text" placeholder="User name"/>
+                    <br>
+                    <input name="email" type="email" placeholder="Email"/>
+                    <br>
+                    <input name="password" type="password" placeholder="Password"/>
+                    <br>
+                    <input name="rePassword" type="password" placeholder="Confirm Password"/>
+                    <br>
+                    <input name="submitter" type="submit" value="Register"/>
+                </form>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
