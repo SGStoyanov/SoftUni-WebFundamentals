@@ -5,65 +5,53 @@
     <meta charset="UTF-8">
     <title>Problem 1 - Simple Form</title>
     <style>
-        table {
-            background: #EEEEEE;
-        }
-        h1 {
-            color: #1E3F61;
-        }
-        body {
-            color: #AEAEAE;
-            font-family: Tahoma;
-        }
-        td.firstLine {
-            text-transform: capitalize;
-            font-weight: bold;
-        }
-        tr.header {
-            border-spacing: 100px;
-        }
-        input[name=submitter] {
-            border: 2px solid #234465;
-            background: transparent;
-            float: right;
-            color: #234465;
-            font-size: 20px;
-            font-family: Tahoma;
-            padding: 20px;
-            width: 40%;
-            height: 30px;
-            vertical-align: middle;
-        }
+        body {background-color: #eeeeee; font-family: 'Tahoma', sans-serif;}
+        h2 {font-weight: bold; color: #234465; font-size: 16px;}
+        p {font-size: 11px; color: #9e9e9e;}
+
+        form {width: 230px; padding: 0 10px; float: left;}
+        form h3 {font-size: 11px; font-weight: bold; color: #606060; text-transform: uppercase}
+        form h3 span {color: #1f4062;}
+
+        input {width: 212px; border: 1px solid #d8d8d8; font-size: 11px; color: #888888; margin-bottom: 10px; padding: 0 8px; height: 25px;}
+        button {padding: 0 25px; float: right; height: 25px; cursor: pointer;}
+
+        form.login {background-color: #234465; height: 210px;}
+        form.login h3 {color: #fff;}
+        form.login .remember {height: 25px; float: left;}
+        form.login input[type="checkbox"] {float: left; margin: 0 5px 0 0; width: auto;}
+        form.login label {color: #fff; font-size: 11px;}
+        form.login a {float: right; color: #fff; margin-top: 5px; font-size: 9px; font-weight: bold;}
+
+        .register button {background: none; border: 1px solid #526b85; color: #526b85;}
+        .register button:hover {background-color: #526b85; color: #fff;}
+        .login button {background: none; border: 1px solid #d08916; color: #fff;}
+        .login button:hover {background-color: #d08916;}
     </style>
 </head>
 <body>
-    <table>
-       <tr>
-           <td valign="top"><h1>Enter the system</h1></td>
-       </tr>
-        <tr class="header">
-            <td>It is necessary to login in Your account in order to sign in for a course.</td>
-        </tr>
-        <tr>
-            <td class="firstLine">
-                Are you new? Register
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <form method="post">
-                    <input name="username" type="text" placeholder="User name"/>
-                    <br>
-                    <input name="email" type="email" placeholder="Email"/>
-                    <br>
-                    <input name="password" type="password" placeholder="Password"/>
-                    <br>
-                    <input name="rePassword" type="password" placeholder="Confirm Password"/>
-                    <br>
-                    <input name="submitter" type="submit" value="Register"/>
-                </form>
-            </td>
-        </tr>
-    </table>
+    <h2>Enter the system</h2>
+    <p>It is necessary to login in Your account in order to sign in for a course.</p>
+
+    <form action="register.php" method="POST" class="register">
+        <h3>Are you new? <span>Register</span></h3>
+        <input type="text" name="username" placeholder="Username" />
+        <input type="email" name="email" placeholder="Email" />
+        <input type="password" name="password" placeholder="Password" />
+        <input type="password" name="confirm_password" placeholder="Confirm Password" />
+        <button>Register</button>
+    </form>
+
+    <form action="login.php" method="POST" class="login">
+        <h3>Already a student? Login</h3>
+        <input type="text" name="username" placeholder="Username" />
+        <input type="password" name="password" placeholder="Password" />
+        <div class="remember">
+            <input type="checkbox" name="remember" id="remember"/>
+            <label for="remember">Remember me?</label>
+        </div>
+        <button>Login</button>
+        <a href="">Forgot Password</a>
+    </form>
 </body>
 </html>
