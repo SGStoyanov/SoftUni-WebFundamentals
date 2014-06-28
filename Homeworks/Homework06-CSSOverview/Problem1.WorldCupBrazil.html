@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Problem 1 - World Cup Brazil</title>
+    <link href="styles/01.WorldCupBrazilStylesheet.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+    <main>
+        <section>
+            <table>
+                <tr class="firstRow">
+                    <th class="roundedCornersTopLeft" id="rightAligned"><h1>Country</h1></th>
+                    <th id="centralAligned"><h1>Result</h1></th>
+                    <th class="leftAligned" id="leftAligned"><h1>Country</h1></th>
+                    <th class="small" id="centralAligned"><h1>Group</h1></th>
+                    <th class="roundedCornersTopRight" id="centralAligned" colspan="4"><h1>Place A Bet</h1></th>
+                </tr>
+                <tr>
+                    <td id="rightAligned">Brazil<div class="BrazilFlag" id="rightAligned"></div></td>
+                    <td id="centerAligned">1 - 3</td>
+                    <td>Mexico<div class="MexicoFlag" id="leftAligned"></div></td>
+                    <td id="centerAligned">A</td>
+                    <td class="medium" id="rightAligned">Brazil</td>
+                    <td class="selectWidth" id="centerAligned">
+                        <select class="disabledFields" disabled="disabled">
+                            <option value="0" selected>0</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                        </select>
+                        -
+                        <select class="disabledFields" disabled="disabled">
+                            <option value="0" selected>0</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                        </select>
+                    </td>
+                    <td class="medium" id="leftAligned">Mexico</td>
+                    <td class="betImageRed"><input type="submit" id="betButtonRed"></input></td>
+                </tr>
+                <tr class="greyRow">
+                    <td id="rightAligned">Spain<div class="SpainFlag" id="rightAligned"></div></td>
+                    <td id="centerAligned">1 - 5</td>
+                    <td>Netherlands<div class="NetherlandsFlag" id="leftAligned"></div></td>
+                    <td id="centerAligned">B</td>
+                    <td id="rightAligned">Spain</td>
+                    <td class="selectWidth" id="centerAligned">
+                        <select class="disabledFields" disabled="disabled">
+                            <option value="0" selected>0</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                        </select>
+                        -
+                        <select class="disabledFields" disabled="disabled">
+                            <option value="0" selected>0</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                        </select>
+                    </td>
+                    <td id="leftAligned">Netherlands</td>
+                    <td class="betImageRed"><input type="submit" id="betButtonRedGrey"></input></td>
+                </tr>
+                <tr>
+                    <td id="rightAligned">Italy<div class="ItalyFlag" id="rightAligned"></div></td>
+                    <td id="centerAligned">2 - 1</td>
+                    <td>England<div class="EnglandFlag" id="leftAligned"></div></td>
+                    <td id="centerAligned">C</td>
+                    <td id="rightAligned">Italy</td>
+                    <td class="selectWidth" id="centerAligned">
+                        <select class="disabledFields" disabled="disabled">
+                            <option value="0" selected>0</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                        </select>
+                        -
+                        <select class="disabledFields" disabled="disabled">
+                            <option value="0" selected>0</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                        </select>
+                    </td>
+                    <td id="leftAligned">England</td>
+                    <td class="betImageRed"><input type="submit" id="betButtonRed"></input></td>
+                </tr>
+                <tr class="greyRow">
+                    <td id="rightAligned">Argentina<div class="ArgentinaFlag" id="rightAligned"></div></td>
+                    <td id="centerAligned"> - </td>
+                    <td>Bosnia and Herz<div class="BosniaFlag" id="leftAligned"></div></td>
+                    <td id="centerAligned">D</td>
+                    <td id="rightAligned">Argentina</td>
+                    <td class="selectWidth" id="centerAligned">
+                        <select class="enabledFields">
+                            <option value="0" selected>0</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                        </select>
+                        -
+                        <select class="enabledFields">
+                            <option value="0" selected>0</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                        </select>
+                    </td>
+                    <td id="leftAligned">Bosnia and Herz</td>
+                    <td class="betImageGreen"><input type="submit" id="betButtonGreenGrey"></input></td>
+                </tr>
+                <tr>
+                    <td class="roundedCornersBottomLeft" id="rightAligned">Germany<div class="GermanyFlag" id="rightAligned"></div></td>
+                    <td id="centerAligned"> - </td>
+                    <td>Portugal<div class="PortugalFlag" id="leftAligned"></div></td>
+                    <td id="centerAligned">E</td>
+                    <td id="rightAligned">Germany</td>
+                    <td class="selectWidth" id="centerAligned">
+                        <select class="enabledFields">
+                            <option value="0" selected>0</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                        </select>
+                        -
+                        <select class="enabledFields">
+                            <option value="0" selected>0</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                        </select>
+                    </td>
+                    <td id="leftAligned">Portugal</td>
+                    <td class="betImageGreen"><input type="submit" id="betButtonGreen"></input></td>
+                </tr>
+            </table>
+        </section>
+    </main>
+</body>
+</html>
