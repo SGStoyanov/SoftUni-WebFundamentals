@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+    <head lang="en">
+        <meta charset="UTF-8">
+        <title>Problem 5. Life In SoftUni</title>
+        <style>
+            table, tr, th, td {
+                border: 1px solid black;
+            }
+            thead {
+                font-weight: bold;
+                font-size: 50px;
+            }
+            td {
+                font-size: 22px;
+            }
+            tr {
+                height: 100px;
+            }
+            table.generalTable {
+                width: 400px;
+
+            }
+            table.insideTable {
+                width: 90%;
+                text-align: center;
+            }
+            tr.innerRows {
+                height: 70px;
+            }
+            td.innerCells {
+                font-size: 15px;
+                font-weight: bold;
+            }
+        </style>
+    </head>
+    <body>
+        <table class="generalTable">
+            <thead>
+            <tr>
+                <th colspan="4">SoftUni LIFE</th>
+            </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td align="left" valign="top" colspan="2" width="50%">Google</td>
+                    <td align="right" valign="top" colspan="2" width="50%">GitHub</td>
+                </tr>
+                <tr>
+                    <td align="center" valign="top" width="25%">FB</td>
+                    <td align="left" valign="middle" width="25%">GMail</td>
+                    <td align="center" valign="bottom" width="25%">YouTube</td>
+                    <td align="left" valign="middle" width="25%">2048</td>
+                </tr>
+                <tr>
+                    <td align="right" valign="bottom" width="25%">Food</td>
+                    <td align="left" valign="bottom" colspan="2" width="50%">Game</td>
+                    <td align="center" width="25%">
+                        <table class="insideTable" cellspacing="3">
+                            <tr class="innerRows">
+                                <td class="innerCells">Social Life</td>
+                            </tr>
+                            <tr class="innerRows">
+                                <td class="innerCells">Sleep</td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="3" align="right"><h2>Beer &gt;</h2></td>
+                    <td>WC</td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>
