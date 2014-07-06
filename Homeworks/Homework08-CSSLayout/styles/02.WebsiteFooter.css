@@ -1,0 +1,82 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-size: 12px;
+    font-weight: normal;
+    font-family: Tahoma;
+    color: white;
+}
+    footer {
+        height: 200px;
+        width: 1200px;
+        background: #234465;
+    }
+    section {
+        display: inline-block;
+        vertical-align: top;
+        height: 82%;
+        padding-top: 3%;
+        width: 19%;
+        margin-bottom: -2.7%;
+        line-height: 15px;
+    }
+    a {
+        text-decoration: none;
+        color: white;
+    }
+    a:hover {
+        background: #FF9C00;
+    }
+        .buttons a {
+            display: inline-block;
+            height: 29px;
+            width: 130px;
+            border: 1px solid #FF9C00;
+            background: transparent;
+            text-align: center;
+            vertical-align: middle;
+            line-height: 27px;
+            margin-top: 7px;
+            float: right;
+            margin-right: 5%;
+        }
+        .buttons a:hover {
+            background: #FF9C00;
+        }
+        .links {
+            padding: 0;
+            margin-top: 2.4%;
+        }
+        h2 {
+            font-size: 13px;
+            font-weight: bold;
+            color: #FF9C00;
+            text-transform: uppercase;
+        }
+        ul {
+            list-style-type: none;
+        }
+        li {
+            padding-left: 0px;
+            margin-left: -20%;
+        }
+        .friends, .info {
+            padding: 0;
+            vertical-align: top;
+            margin-top: 2.45%;
+            vertical-align: top;
+        }
+        .info ul li {
+            display: inline-block;
+            padding: 0px;
+            margin: 0px;
+        }
+        .info ul {
+            padding-left: 1%;
+        }
+
+        .fb-like-box {
+            background: #E9ECEF;
+            margin-top: 0.8%;
+            height: 90%;
+        }
