@@ -1,0 +1,327 @@
+body {
+    width:99%;
+    height: 100%;
+    min-height: 100%;
+    font-family: Pacifico, comic sans ms, Arial, Helvetica;
+    padding: 0;
+    margin-left: 1%;
+    margin-right: auto;
+    background: rgba(179,220,237,1);
+    /* Chrome10+,Safari5.1+ */ background: -o-linear-gradient(45deg, rgba(179,220,237,1) 0%, rgba(139,173,240,1) 19%, rgba(41,184,229,1) 50%, rgba(154,179,230,1) 72%, rgba(139,173,240,1) 79%, rgba(188,224,238,1) 100%);
+    /* Firefox */ background: -moz-linear-gradient(45deg, rgba(179,220,237,1) 0%, rgba(139,173,240,1) 19%, rgba(41,184,229,1) 50%, rgba(154,179,230,1) 72%, rgba(139,173,240,1) 79%, rgba(188,224,238,1) 100%);
+    /* Opera 11.10+ */ background: -ms-linear-gradient(45deg, rgba(179,220,237,1) 0%, rgba(139,173,240,1) 19%, rgba(41,184,229,1) 50%, rgba(154,179,230,1) 72%, rgba(139,173,240,1) 79%, rgba(188,224,238,1) 100%);
+    /* IE 10+ */ background: linear-gradient(45deg, rgba(179,220,237,1) 0%, rgba(139,173,240,1) 19%, rgba(41,184,229,1) 50%, rgba(154,179,230,1) 72%, rgba(139,173,240,1) 79%, rgba(188,224,238,1) 100%);
+    /* W3C */ /*filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b3dced', endColorstr='#bce0ee', GradientType=1 );*/
+    background-attachment: fixed;
+    }
+    header, aside, nav, section, footer {
+        opacity: 0.8;
+        border-radius: 5px;
+    }
+    header {
+        height: 30%;
+        max-height: 30%;
+    }
+    .jokeUni {
+        display: inline-block;
+        width:22.22%;
+        height: 43%;
+        max-height: 208px;
+        margin-left:3.7%;
+    }
+    .learnJoke {
+        display: inline-block;
+        width:68.7%;
+        height: 43%;
+        max-height: 208px;
+        background-repeat: repeat;
+    }
+    nav {
+        background-color:#234465;
+        width:91.3%;
+        margin-left:3.7%;
+    }
+    nav a:hover {
+        background: #51D43A;
+        position: relative;
+        text-decoration: underline;
+        color: black;
+    }
+    ul {
+        margin-top:0px;
+        margin-bottom:0px;
+        padding-top:2px;
+        padding-bottom:4px;
+    }
+    ul li {
+        display:inline-block;
+        padding-right:1.63%;
+        text-align:center;
+        position: relative;
+    }
+	.navigation{
+		color: white;
+        font-size: 17pt;
+		text-decoration: none;
+        font-weight: normal;
+		font-family: 'Lobster', cursive !important;
+	}
+    section {
+		float:left;
+		width:71%;
+		height:1410px;
+        background-color:#E6E6E6;
+        margin-left:3.7%;
+        margin-top:5px;
+        margin-bottom:5px;
+        padding:15px;
+		
+    } 
+    aside {
+		float:left;
+        width:15.9%;
+		height: 440px;
+        background-color:#E6E6E6;
+        margin-left:5px;
+        margin-top:5px;
+        margin-bottom:5px;
+        padding-left:25px;
+    }
+    aside div {
+        margin-top:10%;
+        width: 70%;
+    }
+    aside a:hover {
+        text-decoration: underline !important;
+    }
+    table {
+        width:50%;
+        font-size:11pt;
+        margin-left:3%;
+    }
+    h2 {
+        font-size:12pt;
+        color:#234465;
+        font-weight:bold;
+    }
+    ul.block {
+        color:black;
+        padding-left:10px;
+        list-style-type: circle;
+    }
+    .block li {
+        display:block;
+        text-align:left;
+    }
+    a.avaliable-link {
+        text-decoration: none;
+        font-size:10pt;
+        height:14px;
+        padding-top:2px;
+        padding-bottom:3px;
+    }
+    .laughingFace {
+        width:49%;
+        padding-left:32%;
+    }
+	dd{
+		margin-bottom:15px;
+		text-align:right;
+		margin-right:40px;
+	}
+    .about-us-cow-1{
+
+        float:left;
+        background: linear-gradient(white,#234465);
+        margin: 20px;
+        border-radius: 10px;
+        text-align: center;
+        box-shadow: 10px 10px 5px #888888;
+        width: 250px;
+    }
+    .resize1{
+        padding-left: 0px;
+         width: 25px;
+         height: auto;
+     }
+    .resize2{
+        padding-left: 30px;
+        width: 20px;
+        height: auto;
+    }
+    .resize3{
+        padding-left: 30px;
+        width: 20px;
+        height: auto;
+    }
+    .secondRow{
+        font-size: 15px;
+    }
+    .firstRow > a {
+        font-style: italic;
+        color:black;
+        font-size: 20px;
+    }
+    #usr1, #usr2, #usr3, #usr4, #usr5, #usr6 {
+        text-decoration: none;
+    }
+    ul.block > li > a {
+        text-decoration: none;
+        font-style: italic;
+        font-size: 12pt;
+        color: black;
+        
+    }
+    footer {
+        float:left;
+        width:90%;
+        background-color:#E6E6E6;
+         margin-left:3.7%;
+        padding:10px;
+    }
+    .footWrapper > div:first-of-type {
+        display: inline-block;
+        width: 70%;
+        margin-left: 6%;
+		margin-bottom:2%;
+    }
+    .footWrapper > div:nth-of-type(2), .footWrapper > div:nth-of-type(3), .footWrapper > div:nth-of-type(4), 
+	.footWrapper > div:nth-of-type(5), .footWrapper > div:nth-of-type(6), .footWrapper > div:nth-of-type(7) {
+        display: inline-block;
+        width: 17%;
+       
+        margin-left: 7%;
+    }
+    .footWrapper > div:nth-of-type(4) {
+        width: 22%;
+    }
+    .validators {
+        width: 100%;
+    }
+    .validators div {
+        display: inline-block;
+        width: 0%;
+        margin: 1% 1% 0% 6%;
+    }
+	.mainPage {
+    	background: linear-gradient(white,#234465);
+    	box-shadow: 10px 10px 5px #888888;
+    	border-radius: 10px;
+    	margin-top:3%;
+    	margin-left:7%;
+    	margin-right:7%;
+    	padding-left:25px;
+		padding-right:25px;
+		padding-top:15px;
+		padding-bottom:15px;
+    	font-size:1.1em;
+    }
+    .nakov {
+        background: linear-gradient(white,#234465);
+        box-shadow: 10px 10px 5px #888888;
+        border-radius: 10px;
+        margin-top: 3%;
+        margin-left: 7%;
+        margin-right: 7%;
+        padding: 25px;
+        font-size: 1em;
+    }
+	 .mainPage2{
+    	background: linear-gradient(#234465, white);
+    	box-shadow: 10px 10px 5px #888888;
+    	border-radius: 10px;
+    	margin-top:3%;
+    	margin-left:7%;
+    	margin-right:7%;
+    	padding-left:25px;
+		padding-right:25px;
+		padding-top:15px;
+		padding-bottom:15px;
+    	font-size:1.1em;
+        
+    }
+    .mainPage > div {
+        font-size: 0.8em;
+        font-weight: normal;
+}
+    #softuni-logo > a > img {
+        margin-top:30px;
+        width: 130%;
+        height: 110%;
+    }
+	.short{
+		height:430px;
+	}
+	.short2{
+		height:500px;
+	}
+	.kolajNakov{
+		width:100%;
+		
+	}
+    .nakovParta {
+        height: 100%;
+        width: 100%;
+        background: url('../Images/nakovVSAll.png'),
+        url('../Images/leonidasNakov.jpg');
+        background-repeat: no-repeat;
+        background-position:
+        60% 4%,
+        50% 3%,
+        top left;
+    }
+        span.speech {
+            font-family: "comic sans ms", 'Tahoma', 'Helvetica', 'Arial';
+            float: left;
+            color: red;
+            font-weight: normal;
+            font-size: 1.5em;
+            font-style: italic;
+            position: relative;
+            top: 2%;
+            left: 66%;
+            width: 25%;
+            height: 5%;
+            text-align: center;
+            line-height: 280%;
+            background-color: #fff;
+            border: 2px solid #666;
+            -webkit-border-radius: 30px;
+            -moz-border-radius: 30px;
+            border-radius: 30px;
+            -webkit-box-shadow: 2px 2px 4px #888;
+            -moz-box-shadow: 2px 2px 4px #888;
+            box-shadow: 2px 2px 4px #888;
+        }
+        /*The second element of the speech bubble - a triangle.*/
+        span.speech:after
+        {
+            content: ' ';
+            position: absolute;
+            width: 0%;
+            height: 0%;
+            left: 12%;
+            top: 100%;
+            border: 15px solid;
+            border-color: #fff transparent transparent #fff;
+        }
+	.funny{
+		width:70px;
+		height:70px;
+		border-radius:70px;
+	}
+	.white{
+		color:white;
+	}
+	.whiteA{
+		color:white;
+		font-family: Pacifico, comic sans ms, Arial, Helvetica;
+		font-size: 18pt;
+		font-weight:bold;
+	}
+	.blackA{
+		color:black;
+		font-family: Pacifico, comic sans ms, Arial, Helvetica;
+		font-size: 18pt;
+		font-weight:bold;
+	}
